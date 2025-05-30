@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>OnlyCaps Startseite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Chelsea+Market&family=Kranky&family=Londrina+Sketch&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Iso&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+    <!--top button-->
+    <a id="top"></a>
+    <!--navbar-->
+    <nav class="navbar navbar-light fixed-top">
+      <div class="container-fluid">
+        <!-- Offcanvas Toggler -->
+        <button class="navbar-toggler ms-auto mt-4 me-4 border-3 border-black" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Offcanvas Sidebar -->
+        <div class="offcanvas offcanvas-end d-flex justify-content-center align-items-center py-2" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body fs-4">
+            <ul class="navbar-nav">
+              <li class="nav-item text-center mt-5">
+                <a class="nav-link" href="index.html">Start</a>
+              </li>
+              <li class="nav-item text-center mt-5">
+                <a class="nav-link" href="overview.html">Gallerie</a>
+              </li>
+              <li class="nav-item text-center mt-5">
+                <a class="nav-link" href="detail.html">Details</a>
+              </li>
+              <li>
+                <img class="img-logo-bottle" src="public/img/onlycaps-on-ice.png" alt="OnlyCaps Flasche mit Eis">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--header-->
+    <header class="header-overview img-bg img-fluid px-4 py-5 text-center 5">
+      <h1>Kronkorken-Sammlung</h1>
+    </header>
+
+    <!--main-->
+    <main class="content">
+      <div class="container text-center my-5">
+        <!-- search field -->
+        <div class="d-flex justify-content-start">
+          <input type="text" id="searchInput" class="form-control mx-auto" placeholder="Nach Kronkorken suchen...">
+        </div>
+        <!-- Tab Navigation -->
+        <div class="tab-navigation justify-content-center my-3 mb-5">
+            <button class="tab-btn active" data-tab="all">Alle</button>
+            <button class="tab-btn" data-tab="softdrinks">Softdrinks</button>
+            <button class="tab-btn" data-tab="beer">Biere</button>
+        </div>
+    
+        <!-- Softdrinks Tab -->
+        <div class="tab-content active" id="softdrinks">
+            <hr>
+            <div class="grid-container">
+                <div class="grid-item">
+                  <a href="detail.html#2way">
+                    <img class="img-gallery" src="public/img/2way.jpg" alt="2 Way">
+                  </a>
+                  <div class="image-overlay">
+                    <h5>2 Way</h5>
+                </div>
+                </div>
+                <div class="grid-item">
+                  <a href="detail.html#7up">
+                    <img class="img-gallery" src="public/img/7up.jpg" alt="7Up">
+                  </a>
+                  <div class="image-overlay">
+                      <h5>7Up</h5>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <a href="detail.html#coca-cola">
+                    <img class="img-gallery" src="public/img/cocacola.jpg" alt="Coca Cola">
+                  </a>
+                  <div class="image-overlay">
+                      <h5>Coca Cola</h5>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <a href="detail.html#drinking-ape">
+                    <img class="img-gallery" src="public/img/drinking-ape.jpg" alt="Drinking Ape">
+                  </a>
+                  <div class="image-overlay">
+                      <h5>Drinking Ape</h5>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <a href="detail.html#fanta">
+                    <img class="img-gallery" src="public/img/fanta.jpg" alt="Fanta">
+                  </a>
+                  <div class="image-overlay">
+                      <h5>Fanta</h5>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <a href="detail.html#lipton-icetea">
+                    <img class="img-gallery" src="public/img/lipton-icetea.jpg" alt="Lipton IceTea">
+                  </a>
+                  <div class="image-overlay">
+                      <h5>Lipton IceTea</h5>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <a href="detail.html#nestea">
+                    <img class="img-gallery" src="public/img/nestea.jpg" alt="Nestea">
+                  </a>
+                  <div class="image-overlay">
+                      <h5>Nestea</h5>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <a href="detail.html#pepsi">
+                    <img class="img-gallery" src="public/img/pepsi.jpg" alt="Pepsi">
+                  </a>
+                  <div class="image-overlay">
+                      <h5>Pepsi</h5>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <a href="detail.html#redbull">
+                    <img class="img-gallery" src="public/img/redbull.jpg" alt="Redbull">
+                  </a>
+                  <div class="image-overlay">
+                      <h5>Redbull</h5>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <a href="detail.html#sprite">
+                    <img class="img-gallery" src="public/img/sprite.jpg" alt="Sprite">
+                  </a>
+                  <div class="image-overlay">
+                      <h5>Sprite</h5>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <a href="detail.html#citro-cola">
+                    <img class="img-gallery" src="public/img/citro-cola.jpg" alt="Citrol Cola">
+                  </a>
+                  <div class="image-overlay">
+                      <h5>Citrol Cola</h5>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <a href="detail.html#club-orange">
+                    <img class="img-gallery" src="public/img/club-orange.jpg" alt="Club Orange">
+                  </a>
+                  <div class="image-overlay">
+                      <h5>Club Orange</h5>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <a href="detail.html#jolly-cola">
+                    <img class="img-gallery" src="public/img/jolly-cola.jpg" alt="Jolly Cola">
+                  </a>
+                  <div class="image-overlay">
+                      <h5>Jolly Cola</h5>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <a href="detail.html#djino">
+                    <img class="img-gallery" src="public/img/djino.jpg" alt="Djino">
+                  </a>
+                  <div class="image-overlay">
+                      <h5>Djino</h5>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <a href="detail.html#cocacola-blak">
+                    <img class="img-gallery" src="public/img/cocacola-blak.jpg" alt="Coca Cola Blak">
+                  </a>
+                  <div class="image-overlay">
+                      <h5>Coca Cola Blak</h5>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+    
+        <!-- Beer Tab -->
+        <div class="tab-content" id="beer">
+            <hr>
+            <div class="grid-container">
+                <div class="grid-item">
+                  <a href="detail.html#harbobearbeer">
+                    <img class="img-gallery" src="public/img/harbobearbeer.jpg" alt="Harbo Bear Beer">
+                  </a>
+                  <div class="image-overlay">
+                      <h5>Harbo Bear Beer</h5>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <a href="detail.html#tiger">
+                    <img class="img-gallery" src="public/img/tiger.jpg" alt="Tiger">
+                  </a>
+                  <div class="image-overlay">
+                      <h5>Tiger</h5>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <a href="detail.html#trumer-pils">
+                    <img class="img-gallery"  src="public/img/trumer-pils.jpg" alt="Trumer Pils">
+                  </a>
+                  <div class="image-overlay">
+                      <h5>Trumer Pils</h5>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <a href="detail.html#gallia">
+                    <img class="img-gallery"  src="public/img/gallia.jpg" alt="Gallia">
+                  </a>
+                  <div class="image-overlay">
+                      <h5>Gallia</h5>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <a href="detail.html#kusterbier">
+                    <img class="img-gallery"  src="public/img/kusterbier.jpg" alt="Kuster Bier">
+                  </a>
+                  <div class="image-overlay">
+                      <h5>Kuster Bier</h5>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!--Back to Top Button-->
+      <a class="top-btn clearfix" href="#top" role="button">
+        <img class="up-arrow float-end mx-4" src="public/img/up-arrow.png" alt="">
+      </a>
+    </main>
+    <!--footer-->
+    <footer class="footer img-bg">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="footer-brand">OnlyCaps</div>
+                    <p class="footer-text">Jeder Kronkorken erzählt eine Geschichte – entdecke sie hier!</p>
+                    <div class="social-links mt-4">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <ul class="footer-links">
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Leistungen</a></li>
+                        <li><a href="#">Kontakt</a></li>
+                        <li><a href="#">Datenschutz</a></li>
+                        <li><a href="#">AGB</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright text-center">© 2025 OnlyCaps. Alle Rechte vorbehalten.</div>
+        </div>
+    </footer>
+  </div>
+  <!--script-->
+  <script src="public/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+  </script>
+</body>
+</html>
